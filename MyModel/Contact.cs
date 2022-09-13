@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MyModel
 {
-    internal class Contact
+    public class Contact
     {
         [Key]
         public int ID { get; set; }

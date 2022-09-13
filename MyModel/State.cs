@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace MyModel
 {
-    internal class State
+    public class State
     {
         [Key]
         public int id { get; set; }
